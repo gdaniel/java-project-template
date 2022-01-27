@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>fr.gdaniel</groupId>
-    <artifactId>My App</artifactId>
+    <artifactId>my-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <name>My App</name>
