@@ -30,3 +30,13 @@ jobs:
         token: ${{ secrets.CODECOV_TOKEN }}
         files: ./target/site/jacoco/jacoco.xml
         flags: unittests
+    # - name: Generate Javadoc
+    #   run: mvn javadoc:javadoc --file pom.xml
+    # - name: Upload Javadoc
+    #   uses: garygrossgarten/github-action-scp@release
+    #   with:
+    #     local: ./target/site/apidocs
+    #     remote: /var/www/html/btree/apidocs
+    #     host: ${{ secrets.CD_HOST }}
+    #     username: ${{ secrets.CD_USERNAME }}
+    #     password: ${{ secrets.CD_PASSWORD }}
